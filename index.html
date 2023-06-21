@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/sass/main.scss" />
+
+    <script defer src="src/js/script.js"></script>
+
+    <title>Währungsrechner</title>
+  </head>
+  <body>
+    <div class="invalid-input">Bitte füllen Sie alle Felder aus</div>
+    <div class="invalid-currency">Ungültige Währung</div>
+    <h1 class="heading-primary">Währungsrechner</h1>
+    <form>
+      <input
+        type="text"
+        name="fromCurrency"
+        class="from-currency"
+        placeholder="Von z.b. eur"
+      />
+      <input
+        type="text"
+        name="toCurrency"
+        class="to-currency"
+        placeholder="In z.b. usd"
+      />
+      <input type="number" name="amount" class="amount" placeholder="Betrag" />
+      <button class="btn">Wechseln</button>
+    </form>
+
+    <ul class="currency-list">
+      <li class="currency-item"></li>
+    </ul>
+  </body>
+</html>

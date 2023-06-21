@@ -1,0 +1,28 @@
+//****************************/
+//* HEADINGS */
+//****************************/
+.heading-primary {
+  color: white;
+  font-size: min(3.2rem + 1vw, 4.4rem);
+  font-weight: 100;
+  margin-bottom: 3.2rem;
+}
+
+//****************************/
+//* BUTTONS */
+//****************************/
+.btn {
+  padding: 1.2rem 1.6rem;
+  border: 1px white solid;
+  background: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background-color: white;
+    color: #ff9642;
+  }
+}
